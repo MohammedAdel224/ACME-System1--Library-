@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME System1 - Launch",
+  "Tooltip": "Desctiption:\n    open Chrome on the login page of ACME System 1\n\nPreCondition:\n    N/A\n\nPostCondition:\n    ACME System 1 login page is opend",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Retry Number",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPostTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Post Condition",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

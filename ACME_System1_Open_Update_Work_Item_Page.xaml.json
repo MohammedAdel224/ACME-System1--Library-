@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACME System1 - Open Update Work Item Page",
+  "Tooltip": "Desctiption:\n   open update work item page on ACME System1\n\nPreCondition:\n    work item details page is opened\n\nPostCondition:\n    update work item page opend",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Retry Number",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPreTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Pre Condition",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPostTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Post Condition",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

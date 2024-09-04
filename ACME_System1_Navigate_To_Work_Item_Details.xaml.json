@@ -1,0 +1,81 @@
+{
+  "DisplayName": "ACME System1 - Navigate To Work Item Details",
+  "Tooltip": "Desctiption:\n    navigate to work item detail page using URL or WIID on ACME System 1\n\nPreCondition:\n    account is logged in\n\nPostCondition:\n    work item details page opend",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Retry Number",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPreTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Pre Condtion",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strURL",
+      "DisplayName": "URL",
+      "Category": "Input",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strWIID",
+      "DisplayName": "in_strWIID",
+      "Category": "Input",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPostTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Post Condition",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

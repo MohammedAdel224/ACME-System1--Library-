@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACME System1 - Extract Work Items",
+  "Tooltip": "Desctiption:\n    return a DataTable contains work items data table on ACME System 1\n\nPreCondition:\n    work items page is opend\n\nPostCondition:\n    work items table extracted successfuly",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Retry Number",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPreTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Pre Condition",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_dtWorkItems",
+      "DisplayName": "WorkItems",
+      "Category": "Output",
+      "Tooltip": null,
+      "Placeholder": "At least 1",
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

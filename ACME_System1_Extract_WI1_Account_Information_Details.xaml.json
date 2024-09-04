@@ -1,0 +1,93 @@
+{
+  "DisplayName": "ACME System1 - Extract WI1 Account Information Details",
+  "Tooltip": "Desctiption:\n    extract ACME System1 WI1 account information details\n\nPreCondition:\n    ACME System1 WI1 details page is opend\n\nPostCondition:\n    ACME System1 WI1 account information details extracted",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Retry Number",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPreTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Pre Condition",
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_strClientId",
+      "DisplayName": "Client ID",
+      "Category": "Output",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_strAccountNumber",
+      "DisplayName": "Account Number",
+      "Category": "Output",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_strAccountAmount",
+      "DisplayName": "Account Amount",
+      "Category": "Output",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_strCurrency",
+      "DisplayName": "Currency",
+      "Category": "Output",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
