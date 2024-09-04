@@ -7,12 +7,12 @@
   "Arguments": [
     {
       "Name": "in_intRetryNumber",
-      "DisplayName": "Retry Number",
+      "DisplayName": "Number Of Retries",
       "Category": "Retry",
       "Tooltip": null,
-      "Placeholder": "",
+      "Placeholder": "The number of times that the activity is to be retried.",
       "Widget": "Number",
-      "IsRequired": false,
+      "IsRequired": true,
       "IsPrincipal": false,
       "ArgumentType": 0,
       "DataSourceItems": null
@@ -22,7 +22,7 @@
       "DisplayName": "Retry Interval",
       "Category": "Retry",
       "Tooltip": null,
-      "Placeholder": "",
+      "Placeholder": "Specifies the amount of time (in seconds) between each retry.",
       "Widget": "Timespan",
       "IsRequired": false,
       "IsPrincipal": false,
@@ -34,7 +34,7 @@
       "DisplayName": "Timeout (milliseconds)",
       "Category": "Post Condition",
       "Tooltip": null,
-      "Placeholder": "",
+      "Placeholder": "Enter a VB expression",
       "Widget": "Number",
       "IsRequired": false,
       "IsPrincipal": false,
