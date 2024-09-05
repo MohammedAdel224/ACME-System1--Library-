@@ -36,6 +36,45 @@
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Update_Work_Item.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout",
+        "in_strComment",
+        "in_strStatus"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Extract_WI1_Account_Information_Details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrSplitedAccountInformationDetails&Sequence_9",
+        "boolPreCondition&Sequence_2",
+        "strAccountInformationDetails&Sequence_12",
+        "strCleanedAccountInformationDetails&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "out_strClientId",
+        "out_strAccountNumber",
+        "out_strAccountAmount",
+        "out_strCurrency"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
     }
   ]
 }
