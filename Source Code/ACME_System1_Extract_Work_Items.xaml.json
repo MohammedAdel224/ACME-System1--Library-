@@ -43,7 +43,7 @@
     },
     {
       "Name": "out_dtWorkItems",
-      "DisplayName": "WorkItems",
+      "DisplayName": "Work Items",
       "Category": "Output",
       "Tooltip": null,
       "Placeholder": "WorkItemsDt",
