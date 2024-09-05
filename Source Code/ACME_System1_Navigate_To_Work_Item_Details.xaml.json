@@ -55,7 +55,7 @@
     },
     {
       "Name": "in_strWIID",
-      "DisplayName": "in_strWIID",
+      "DisplayName": "WIID",
       "Category": "Input",
       "Tooltip": null,
       "Placeholder": "WIID (String)",
