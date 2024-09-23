@@ -1,4 +1,4 @@
-<h1 align="center">ACME System 1 Library v24.9.32.1</h1>
+<h1 align="center">ACME System 1 Library v24.9.32.2</h1>
 <p>This is a library to automate ACME System 1 tasks</p><br/>
 
 * UiPath.System.Activities >= 24.10.4
