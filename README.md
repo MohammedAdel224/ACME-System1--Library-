@@ -229,7 +229,7 @@
 * Check Credentials Timeout (milliseconds): `(Int32)`
 
 #### Output
-* Is Credential Correct: `Boolean`<br/>
+* Is Credential Correct: `(Boolean)`<br/>
 <br/>
 <br/>
 
