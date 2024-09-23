@@ -14,7 +14,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap2010:Annotation.AnnotationText>UPTF00000178eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiRGVzY3RpcHRpb246XG4gICAgbmF2aWdhdGUgdG8gd29yayBpdGVtIGRldGFpbCBwYWdlIHVzaW5nIFVSTCBvciBXSUlEIG9uIEFDTUUgU3lzdGVtIDFcblxuUHJlQ29uZGl0aW9uOlxuICAgIGFjY291bnQgaXMgbG9nZ2VkIGluXG5cblBvc3RDb25kaXRpb246XG4gICAgd29yayBpdGVtIGRldGFpbHMgcGFnZSBvcGVuZCIsIjxWZXJzaW9uPmtfX0JhY2tpbmdGaWVsZCI6MX0=</sap2010:Annotation.AnnotationText>
+  <sap2010:Annotation.AnnotationText>UPTF0000017CeyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiRGVzY3RpcHRpb246XG4gICAgbmF2aWdhdGUgdG8gd29yayBpdGVtIGRldGFpbCBwYWdlIHVzaW5nIFVSTCBvciBXSUlEIG9uIEFDTUUgU3lzdGVtIDFcblxuUHJlLUNvbmRpdGlvbjpcbiAgICBhY2NvdW50IGlzIGxvZ2dlZCBpblxuXG5Qb3N0LUNvbmRpdGlvbjpcbiAgICB3b3JrIGl0ZW0gZGV0YWlscyBwYWdlIG9wZW5kIiwiPFZlcnNpb24+a19fQmFja2luZ0ZpZWxkIjoxfQ==</sap2010:Annotation.AnnotationText>
   <sap:VirtualizedContainerService.HintSize>800.8,3725.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Sequence1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
@@ -86,7 +86,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Desctiption:&#xA;    navigate to work item detail page using URL or WIID on ACME System 1&#xA;&#xA;PreCondition:&#xA;    account is logged in&#xA;&#xA;PostCondition:&#xA;    work item details page opend" DisplayName="ACME System1 Navigate To Work Item Details" sap:VirtualizedContainerService.HintSize="811.2,3660.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Desctiption:&#xA;    navigate to work item detail page using URL or WIID on ACME System 1&#xA;&#xA;Pre-Condition:&#xA;    account is logged in&#xA;&#xA;Post-Condition:&#xA;    work item details page opend" DisplayName="ACME System1 Navigate To Work Item Details" sap:VirtualizedContainerService.HintSize="811.2,3660.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -1,6 +1,6 @@
 {
   "DisplayName": "ACME System1 - Extract Work Items",
-  "Tooltip": "Desctiption:\n    return a DataTable contains work items data table on ACME System 1\n\nPreCondition:\n    work items page is opend\n\nPostCondition:\n    work items table extracted successfuly",
+  "Tooltip": "Desctiption:\n    return a DataTable contains work items data table on ACME System 1\n\nPre-Condition:\n    work items page is opend\n\nPost-Condition:\n    work items table extracted successfuly",
   "HelpLink": null,
   "Color": null,
   "OriginalIconFileName": null,
@@ -32,7 +32,19 @@
     {
       "Name": "in_intPreTimeout",
       "DisplayName": "Timeout (milliseconds)",
-      "Category": "Pre Condition",
+      "Category": "Pre-Condition",
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intEctractTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Extraction",
       "Tooltip": null,
       "Placeholder": "Enter a VB expression",
       "Widget": "Number",

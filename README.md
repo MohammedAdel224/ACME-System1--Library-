@@ -13,6 +13,64 @@
 <br/>
 
 <details>
+<summary><h5>ACME System1 - Close</h5></summary>
+<div  align="center">
+<img src="https://github.com/MohammedAdel224/ACME-System1--Library-/blob/main/Screenshots/ACMESystem_1_Close_Activity.png" alt="ACME System1 - Close - Activity"/>
+</div>
+
+### Annotation
+#### Description:
+	close ACME System 1 page
+
+#### Post-Condition:
+	ACME System 1 closed
+
+ 
+### Properties
+<img src="https://github.com/MohammedAdel224/ACME-System1--Library-/blob/main/Screenshots/ACMESystem_1_Close_Properties.png" alt="ACME System1 - Close - Properties" align="right"/>
+
+#### Retry
+* Number Of Retries: The number of times that the activity is to be retried. `(Int32)`
+* Retry Interval: Specifies the amount of time (in seconds) between each retry. `(System.TimeSpan)`
+
+#### Post-Condition
+* Timeout (milliseconds): `(Int32)`
+
+<hr/>
+</details>
+
+
+
+<details>
+<summary><h5>ACME System1 - Close Update Work Item Page</h5></summary>
+<div  align="center">
+<img src="https://github.com/MohammedAdel224/ACME-System1--Library-/blob/main/Screenshots/ACMESystem_1_CloseUpdateWorkItemPage_Activity.png" alt="ACME System1 - Close Update Work Item Page - Activity"/>
+</div>
+
+### Annotation
+#### Description:
+	close ACME System 1 update item page
+
+#### Post-Condition:
+	ACME System 1 update item page closed
+
+ 
+### Properties
+<img src="https://github.com/MohammedAdel224/ACME-System1--Library-/blob/main/Screenshots/ACMESystem_1_CloseUpdateWorkItemPage_Properties.png" alt="ACME System1 - Close Update Work Item Page - Properties" align="right"/>
+
+#### Retry
+* Number Of Retries: The number of times that the activity is to be retried. `(Int32)`
+* Retry Interval: Specifies the amount of time (in seconds) between each retry. `(System.TimeSpan)`
+
+#### Post-Condition
+* Timeout (milliseconds): `(Int32)`
+
+<hr/>
+</details>
+
+
+
+<details>
 <summary><h5>ACME System1 - Extract WI1 Account Information Details</h5></summary>
 <div  align="center">
 <img src="https://github.com/MohammedAdel224/ACME-System1--Library-/blob/main/Screenshots/ACMESystem_1_ExtractWI1AccountInformationDetails_Activity.png" alt="ACME System1 - Extract WI1 Account Information Details - Activity"/>
@@ -78,6 +136,9 @@
 * Retry Interval: Specifies the amount of time (in seconds) between each retry. `(System.TimeSpan)`
 
 #### Pre-Condition
+* Timeout (milliseconds): `(Int32)`
+
+#### Extraction
 * Timeout (milliseconds): `(Int32)`
 
 #### Output
@@ -158,7 +219,10 @@
 
 #### Post-Condition
 * Timeout (milliseconds): `(Int32)`
-* Check Credentials Timeout (milliseconds): `(Int32)`<br/>
+* Check Credentials Timeout (milliseconds): `(Int32)`
+
+#### Output
+* Is Credential Correct: `Boolean`<br/>
 <br/>
 <br/>
 
@@ -176,8 +240,10 @@
 ### Annotation
 #### Description:
 	logout from ACME System 1 account
+
 #### Pre-Condition:
-	ACME System 1 logout button exist
+	ACME System 1 is launched
+
 #### Post-Condition:
 	ACME System 1 login page is opend
 

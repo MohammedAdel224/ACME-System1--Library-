@@ -1,6 +1,6 @@
 {
   "DisplayName": "ACME System1 - Update Work Item",
-  "Tooltip": "Desctiption:\n    update work item on ACME System1 \n\nPreCondition:\n    update work item page is opened\n\nPostCondition:\n    update alert appeard",
+  "Tooltip": "Desctiption:\n    update work item on ACME System1 \n\nPre-Condition:\n    update work item page is opened\n\nPost-Condition:\n    update alert appeard",
   "HelpLink": null,
   "Color": null,
   "OriginalIconFileName": null,
@@ -32,7 +32,7 @@
     {
       "Name": "in_intPreTimeout",
       "DisplayName": "Timeout (milliseconds)",
-      "Category": "Pre Condition",
+      "Category": "Pre-Condition",
       "Tooltip": null,
       "Placeholder": "Enter a VB expression",
       "Widget": "Number",
@@ -72,7 +72,7 @@
     {
       "Name": "in_intPostTimeout",
       "DisplayName": "Timeout (milliseconds)",
-      "Category": "Post Condition",
+      "Category": "Post-Condition",
       "Tooltip": null,
       "Placeholder": "Enter a VB expression",
       "Widget": "Number",

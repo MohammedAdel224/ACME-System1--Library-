@@ -12,7 +12,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap2010:Annotation.AnnotationText>UPTF00000150eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiRGVzY3RpcHRpb246XG4gICAgbmF2aWdhdGUgdG8gd29yayBpdGVtcyBwYWdlIG9uIEFDTUUgU3lzdGVtIDFcblxuUHJlQ29uZGl0aW9uOlxuICAgIGFjY291bnQgaXMgbG9nZ2VkIGluXG5cblBvc3RDb25kaXRpb246XG4gICAgd29yayBpdGVtcyBwYWdlIG9wZW5kIiwiPFZlcnNpb24+a19fQmFja2luZ0ZpZWxkIjoxfQ==</sap2010:Annotation.AnnotationText>
+  <sap2010:Annotation.AnnotationText>UPTF00000150eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiRGVzY3RpcHRpb246XG4gICAgbmF2aWdhdGUgdG8gd29yayBpdGVtcyBwYWdlIG9uIEFDTUUgU3lzdGVtIDFcblxuUHJlLUNvbmRpdGlvbjpcbiAgICBhY2NvdW50IGlzIGxvZ2dlZCBpblxuXG5Qb3N0LUNvbmRpdGlvbjpcbiAgICB3b3JrIGl0ZW1zIHBhZ2Ugb3BlbmQiLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
   <sap:VirtualizedContainerService.HintSize>760.8,1323.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Sequence1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
@@ -83,7 +83,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Desctiption:&#xA;    navigate to work items page on ACME System 1&#xA;&#xA;PreCondition:&#xA;    account is logged in&#xA;&#xA;PostCondition:&#xA;    work items page opend" DisplayName="ACME System1 Navigate To Work Items" sap:VirtualizedContainerService.HintSize="652.8,1258.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Desctiption:&#xA;    navigate to work items page on ACME System 1&#xA;&#xA;Pre-Condition:&#xA;    account is logged in&#xA;&#xA;Post-Condition:&#xA;    work items page opend" DisplayName="ACME System1 Navigate To Work Items" sap:VirtualizedContainerService.HintSize="652.8,1258.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -1,10 +1,22 @@
 {
-  "DisplayName": "ACME System1 - Launch",
-  "Tooltip": "Desctiption:\n    launch ACME System 1 on Chrome\n\nPost-Condition:\n    ACME System 1 is opend",
+  "DisplayName": "ACME System1 - Close Update Work Item Page",
+  "Tooltip": "Desctiption:\r\n    close ACME System 1 update item page\n\nPost-Condition:\r\n    ACME System 1 update item page closed",
   "HelpLink": null,
   "Color": null,
   "OriginalIconFileName": null,
   "Arguments": [
+    {
+      "Name": "in_intTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
     {
       "Name": "in_intRetryNumber",
       "DisplayName": "Number Of Retries",
@@ -24,18 +36,6 @@
       "Tooltip": null,
       "Placeholder": "Specifies the amount of time (in seconds) between each retry.",
       "Widget": "Timespan",
-      "IsRequired": false,
-      "IsPrincipal": false,
-      "ArgumentType": 0,
-      "DataSourceItems": null
-    },
-    {
-      "Name": "in_intPostTimeout",
-      "DisplayName": "Timeout (milliseconds)",
-      "Category": "Post-Condition",
-      "Tooltip": null,
-      "Placeholder": "Enter a VB expression",
-      "Widget": "Number",
       "IsRequired": false,
       "IsPrincipal": false,
       "ArgumentType": 0,

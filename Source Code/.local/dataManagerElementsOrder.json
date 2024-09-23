@@ -29,6 +29,7 @@
         "boolPreCondition&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
+        "in_intEctractTimeout",
         "in_intRetryNumber",
         "in_tsRetryInterval",
         "in_intPreTimeout",
@@ -106,6 +107,73 @@
         "in_tsRetryInterval",
         "in_intPreTimeout",
         "in_intPostTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_3",
+        "booPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "booPostCondition&Sequence_3",
+        "boolCredentials&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_boolCorrectCredential",
+        "in_strEmail",
+        "in_sstrPassword",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout",
+        "in_intCredentialsTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Close_Update_Work_Item_Page.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolWindowExist&Sequence_6",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeout",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System1_Close.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolACMESystem1Exist&Sequence_6",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeout",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
