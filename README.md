@@ -179,7 +179,6 @@
 <br/>
 <br/>
 <br/>
-<br/>
 
 <hr/>
 </details>
