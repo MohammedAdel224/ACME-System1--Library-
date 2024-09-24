@@ -1,5 +1,5 @@
 {
-  "name": "ACMESystem1",
+  "name": "ACME.System1.Activities",
   "projectId": "ffe64c4f-eb9d-4cda-bfc1-a9083cdc8e01",
   "description": "ACME System 1 Library",
   "main": "NewActivity.xaml",
@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.1.0",
-  "projectVersion": "24.9.24.2",
+  "projectVersion": "24.9.24.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
