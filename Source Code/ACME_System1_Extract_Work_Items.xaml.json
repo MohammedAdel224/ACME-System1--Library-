@@ -43,10 +43,10 @@
     },
     {
       "Name": "in_intEctractTimeout",
-      "DisplayName": "Timeout (milliseconds)",
+      "DisplayName": "Timeout (seconds)",
       "Category": "Extraction",
       "Tooltip": null,
-      "Placeholder": "Enter a VB expression",
+      "Placeholder": "The amount of time (in seconds) to wait for the operatin to be performed before generating an error.",
       "Widget": "Number",
       "IsRequired": false,
       "IsPrincipal": false,

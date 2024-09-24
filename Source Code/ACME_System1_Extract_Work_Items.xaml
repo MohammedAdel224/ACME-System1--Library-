@@ -18,7 +18,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF0000018CeyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiRGVzY3RpcHRpb246XG4gICAgcmV0dXJuIGEgRGF0YVRhYmxlIGNvbnRhaW5zIHdvcmsgaXRlbXMgZGF0YSB0YWJsZSBvbiBBQ01FIFN5c3RlbSAxXG5cblByZS1Db25kaXRpb246XG4gICAgd29yayBpdGVtcyBwYWdlIGlzIG9wZW5kXG5cblBvc3QtQ29uZGl0aW9uOlxuICAgIHdvcmsgaXRlbXMgdGFibGUgZXh0cmFjdGVkIHN1Y2Nlc3NmdWx5IiwiPFZlcnNpb24+a19fQmFja2luZ0ZpZWxkIjoxfQ==</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>816.8,1956.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1112.8,1956.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Sequence1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
